@@ -18,9 +18,11 @@ Para instalar y ejecutar el proyecto en tu entorno local, sigue estos pasos:
 1. **Clonar el repositorio**
 
    > git clone https://github.com/tu-usuario/tu-repositorio.git
+   
    > cd tu-repositorio
 
 2. **Ejecución**
 
    > npm install
+   
    > npm run dev
