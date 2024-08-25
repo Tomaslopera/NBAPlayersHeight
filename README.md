@@ -1,50 +1,26 @@
-# React + TypeScript + Vite
+# NBA Player Height Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+El proyecto **NBA Player Height Finder** que permite encontrar pares de jugadores de la NBA cuya altura combinada sea igual a un valor dado. Utiliza la API pública para obtener los datos de los jugadores
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- **React**: Biblioteca para construir interfaces de usuario.
+- **CSS**: Estilos para el diseño de la aplicación.
+- **React Testing Library**: Para la realización de pruebas unitarias.
+- **Jest**: Framework de pruebas para JavaScript.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Instalación y Ejecución
 
-- Configure the top-level `parserOptions` property like this:
+Para instalar y ejecutar el proyecto en tu entorno local, sigue estos pasos:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. **Clonar el repositorio**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   cd tu-repositorio
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+2. **Ejecución**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+   npm install
+   npm run dev
