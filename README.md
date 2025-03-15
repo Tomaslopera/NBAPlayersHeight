@@ -17,7 +17,7 @@ Para instalar y ejecutar el proyecto en tu entorno local, sigue estos pasos:
 
 1. **Clonar el repositorio**
 
-   > git clone https://github.com/tu-usuario/tu-repositorio.git
+   > git clone https://github.com/Tomaslopera/NBAPlayersHeight.git
    
    > cd tu-repositorio
 
